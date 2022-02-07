@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Typing with Sakib</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="stats">
+            <p>Time: <span>0s</span></p>
+            <p>Mistake: <span>0</span></p>
+        </div>
+        <div class="quote" onmousedown="return false" onselectstart="return false">
+        </div>
+        <textarea rows="3" class="quote-input" placeholder="Type here when the test start.."></textarea>
+        <button class="start-test">Start Test</button>
+        <button class="stop-test">Stop Test</button>
+        <div class="result">
+            <h3>Result</h3>
+            <p>Accuracy: <span>0</span></p>
+            <p>Speed: <span>0wpm</span></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
